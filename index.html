@@ -6,50 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Colorize Bookmarklet : Colorize grayscale webpage that use css filter: grayscale technique.">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
     <title>Colorize Bookmarklet</title>
   </head>
 
   <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/nblue/Colorize">View on GitHub</a>
-
-          <h1 id="project_title">Colorize Bookmarklet</h1>
-          <h2 id="project_tagline">Colorize grayscale webpage that use css filter: grayscale technique.</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/nblue/Colorize/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/nblue/Colorize/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>
-<a id="colorize" class="anchor" href="#colorize" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Colorize</h1>
-
-<p></p><h2>
-<a id="colorize-grayscale-webpage-that-use-css-filter-grayscale-technique" class="anchor" href="#colorize-grayscale-webpage-that-use-css-filter-grayscale-technique" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Colorize grayscale webpage that use css filter: grayscale technique.
-
-</h2><p>Drag the Colorize bookmarklet to you bookmark bar.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Colorize Bookmarklet maintained by <a href="https://github.com/nblue">nblue</a></p>
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+    <h1>Colorize Bookmarklet</h1>
+    <h3>Colorize grayscale webpage that use css filter: grayscale technique.</h3>
     
-
+    <p>Drag the <a href="javascript:(function()%7Bjavascript%3A%20(function%20()%20%7Bvar%20elem%20%3D%20document.querySelectorAll(%5B%22body%22%2C%22html%22%2C%22div%22%2C%22section%22%2C%22header%22%2C%22footer%22%2C%22img%22%5D)%3Bfor(%20index%3D0%3B%20index%20%3C%20elem.length%3B%20index%2B%2B%20)%20%7BremoveGrayscale(elem%5Bindex%5D)%3B%7Dfunction%20removeGrayscale(%20element%20)%7Bvar%20filter%20%3D%20window.getComputedStyle(element%2Cnull).getPropertyValue(%22filter%22)%3Bif(filter.startsWith('grayscale'))%7Belement.style.setProperty(%22filter%22%2C%20%22none%22%2C%20%22important%22)%7D%7D%7D())%7D)()">Colorize</a> bookmarklet to you bookmark bar.</p>
+    
   </body>
 </html>
