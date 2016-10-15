@@ -1,2 +1,2 @@
 # Colorize
-Colorize grayscale webpage that use filter: grayscale technique.
+Colorize grayscale webpage that use css filter: grayscale technique.
