@@ -1,4 +1,4 @@
 # Colorize
 Colorize grayscale webpage that use css filter: grayscale technique.
 
-https://kanyarut.github.io/Colorize/
+https://acodeof.com/colorize-website-bookmarklet/
